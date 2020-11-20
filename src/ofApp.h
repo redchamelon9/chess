@@ -3,7 +3,7 @@
 #include "ofMain.h"
 #include "piece.h"
 #include "board.h"
-
+#include "player.h"
 
 class ofApp : public ofBaseApp{
 
@@ -23,5 +23,15 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+
+
+		player	Player1;
+		player	Player2;
+		board	Board;
+		//		Display
+		//		Input
+		bool	gameEnded;
+		//AI	AI
+
 		
 };

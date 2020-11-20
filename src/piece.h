@@ -6,7 +6,7 @@ class piece
 	int		Position;
 	bool	IsEliminated;
 	int		MoveTo;
-	ofImage	pieceImageList;
+	ofImage	pieceImageList[6];
 	piece*	alivePieceList;
 	piece*	eliminatedPieceList;
 	char	type;
