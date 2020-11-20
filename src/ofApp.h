@@ -1,6 +1,9 @@
 #pragma once
 
 #include "ofMain.h"
+#include "piece.h"
+#include "board.h"
+
 
 class ofApp : public ofBaseApp{
 
